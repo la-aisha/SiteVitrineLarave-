@@ -38,69 +38,8 @@
        </div>
        <!-- end header top -->
        <!-- header bottom -->
-       <div class="header_bottom">
-          <div class="container">
-             <div class="row">
-                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-                   <!-- logo start -->
-                   <div class="logo"><a href="home1.html"><img src="{{asset('assets/images/logos/logo.png')}}" alt="logo" /></a></div>
-                   <!-- logo end -->
-                </div>
-                <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
-                   <!-- menu start -->
-                   <div class="menu_side">
-                      <div id="navbar_menu">
-                         <ul class="first-ul">
-                            <li>
-                               <a href="/">Home</a>
-                               
-                            </li>
-                            <li><a class="active" href="about.html">About Us</a></li>
-                            <li>
-                               <a href="service.html">Service</a>
-                               <ul>
-                                  <li><a href="service_list.html">Services list</a></li>
-                                  <li><a href="service_detail.html">Services Detail</a></li>
-                               </ul>
-                            </li>
-                            <li>
-                               <a href="blog.html">Blog</a>
-                               <ul>
-                                  <li><a href="blog_detail.html">Blog Detail</a></li>
-                               </ul>
-                            </li>
-                            <li>
-                               <a href="#">Pages</a>
-                               <ul>
-                                  <li><a href="career.html">Career</a></li>
-                                  <li><a href="faq.html">Faq</a></li>
-                                  <li><a href="privacy_policy.html">Privacy Policy</a></li>
-                                  <li><a href="error.html">Error 404</a></li>
-                               </ul>
-                            </li>
-                            <li>
-                               <a href="shop.html">Shop</a>
-                               <ul>
-                                  <li><a href="shop.html">Shop List</a></li>
-                                  <li><a href="shop_detail.html">Shop Detail</a></li>
-                                  <li><a href="cart.html">Shopping Cart</a></li>
-                                  <li><a href="checkout.html">Checkout</a></li>
-                               </ul>
-                            </li>
-                            <li><a href="/">Contact</a></li>
-                         </ul>
-                      </div>
-                      <div class="search_icon">
-                         <ul>
-                            <li><a href="#" data-toggle="modal" data-target="#search_bar"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                         </ul>
-                      </div>
-                   </div>
-                   <!-- menu end -->
-                </div>
-             </div>
-          </div>
-       </div>
+       @include('partials.header')
+
        <!-- header bottom end -->
     </header>
     <!-- end header -->
@@ -302,7 +241,7 @@
                    <div class="team_feature_social">
                       <div class="social_icon">
                          <ul class="list-inline">
-                            <li><a class="fa fa-facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"></a></li>
+                            <li><a class="fa fa-facebook" href="https://m.facebook.com/p/Afrid%C3%A9comaison-100067727921623/" title="Facebook" target="_blank"></a></li>
                             <li><a class="fa fa-google-plus" href="https://plus.google.com/" title="Google+" target="_blank"></a></li>
                             <li><a class="fa fa-twitter" href="https://twitter.com" title="Twitter" target="_blank"></a></li>
                             <li><a class="fa fa-linkedin" href="https://www.linkedin.com" title="LinkedIn" target="_blank"></a></li>
@@ -321,7 +260,7 @@
                    <div class="team_feature_social">
                       <div class="social_icon">
                          <ul class="list-inline">
-                            <li><a class="fa fa-facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"></a></li>
+                            <li><a class="fa fa-facebook" href="https://m.facebook.com/p/Afrid%C3%A9comaison-100067727921623/" title="Facebook" target="_blank"></a></li>
                             <li><a class="fa fa-google-plus" href="https://plus.google.com/" title="Google+" target="_blank"></a></li>
                             <li><a class="fa fa-twitter" href="https://twitter.com" title="Twitter" target="_blank"></a></li>
                             <li><a class="fa fa-linkedin" href="https://www.linkedin.com" title="LinkedIn" target="_blank"></a></li>
@@ -492,73 +431,8 @@
     </div>
     <!-- End Model search bar -->
     <!-- footer -->
-    <footer class="footer_style_2 footer_blog">
-       <div class="container">
-          <div class="row">
-             <div class="col-md-4">
-                <div class="main-heading left_text">
-                   <h2>Nurvis Theme</h2>
-                </div>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit volu ptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
-                <ul class="social_icons">
-                   <li class="social-icon fb"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                   <li class="social-icon tw"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                   <li class="social-icon gp"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                </ul>
-             </div>
-             <div class="col-md-8">
-                <div class="row">
-                   <div class="col-md-4">
-                      <div class="main-heading left_text">
-                         <h2>Additional links</h2>
-                      </div>
-                      <ul class="footer-menu">
-                         <li><a href="about.html"><i class="fa fa-angle-right"></i> About us</a></li>
-                         <li><a href="term_condition.html"><i class="fa fa-angle-right"></i> Terms and conditions</a></li>
-                         <li><a href="privacy_policy.html"><i class="fa fa-angle-right"></i> Privacy policy</a></li>
-                         <li><a href="news.html"><i class="fa fa-angle-right"></i> News</a></li>
-                         <li><a href="contact.html"><i class="fa fa-angle-right"></i> Contact us</a></li>
-                      </ul>
-                   </div>
-                   <div class="col-md-4">
-                      <div class="main-heading left_text">
-                         <h2>Services</h2>
-                      </div>
-                      <ul class="footer-menu">
-                         <li><a href="#"><i class="fa fa-angle-right"></i> Lighting</a></li>
-                         <li><a href="#"><i class="fa fa-angle-right"></i> Interior Design</a></li>
-                         <li><a href="#"><i class="fa fa-angle-right"></i> Floor Planning</a></li>
-                         <li><a href="#"><i class="fa fa-angle-right"></i> Decoration</a></li>
-                         <li><a href="#"><i class="fa fa-angle-right"></i> Furniture</a></li>
-                      </ul>
-                   </div>
-                   <div class="col-md-4">
-                      <div class="main-heading left_text">
-                         <h2>Contact us</h2>
-                      </div>
-                      <p>123 Second Street Fifth Avenue,<br>
-                         Manhattan, New York<br>
-                         <span><a href="tel:+9876543210">+987 654 3210</a></span>
-                      </p>
-                      <div class="footer_mail-section">
-                         <form>
-                            <fieldset>
-                               <div class="field">
-                                  <input placeholder="Email" type="text">
-                                  <button class="button_custom"><i class="fa fa-envelope" aria-hidden="true"></i></button>
-                               </div>
-                            </fieldset>
-                         </form>
-                      </div>
-                   </div>
-                </div>
-             </div>
-             <div class="cprt">
-                <p>Nurvis by <a href="https://html.design">html.design.</a> All rights reserved.</p>
-             </div>
-          </div>
-       </div>
-    </footer>
+    @include('partials.footer')
+
     <!-- end footer -->
 @endsection
 
