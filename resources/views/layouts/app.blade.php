@@ -8,12 +8,12 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Nurvis - Responsive Html5 Theme</title>
+      <title>Afrideco</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- site icons -->
-      <link rel="icon" href="{{asset('assets/images/fevicon/fevicon.png')}}" type="image/gif" />
+      <link rel="icon" href="{{asset('assets/images/fevicon/fevicon3.png')}}" type="image/gif" />
       <!-- bootstrap css -->
       <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" />
       <!-- Site css -->

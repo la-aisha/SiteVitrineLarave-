@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                 <!-- logo start -->
-                <div class="logo"><a href="home1.html"><img src="{{asset('assets/images/logos/logo.png')}}" alt="logo" /></a></div>
+                <div class="logo"><a href="/"><img src="{{asset('assets/images/logos/logo1.png')}}" alt="logo" /></a></div>
                 <!-- logo end -->
             </div>
             <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
@@ -47,22 +47,19 @@
                         </li>
                         <li><a href="/about">About Us</a></li>
                         <li>
-                            <a href="service.html">Service</a>
+                            <a href="/categories">Categories</a>
                             <ul>
-                            <li><a href="service_list.html">Services list</a></li>
-                            <li><a href="service_detail.html">Services Detail</a></li>
+                            <li><a href="/salon">Salon</a></li>
+                            <li><a href="/literie">Literie</a></li>
+                            <li><a href="/chambre">Chambre</a></li>
+                            <li><a href="/electromenager">Electro Menager</a></li>
+                            <li><a href="/decoration">Decoration</a></li>
+
+
                             </ul>
                         </li>
                         
-                        <li>
-                            <a href="shop.html">Shop</a>
-                            <ul>
-                            <li><a href="shop.html">Shop List</a></li>
-                            <li><a href="shop_detail.html">Shop Detail</a></li>
-                            <li><a href="cart.html">Shopping Cart</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
-                            </ul>
-                        </li>
+                            
                         <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>

@@ -2,7 +2,7 @@
 @extends('layouts.app')
 @section('section')
     <!-- loader -->
-    <div class="bg_load"> <img class="loader_animation" src="{{asset('assets/images/loaders/loader_1.png')}}" alt="#" /> </div>
+    <div class="bg_load"> <img class="loader_animation" src="{{asset('assets/images/fevicon/fevicon2.png')}}" alt="#" /> </div>
         <!-- end loader -->
         <!-- header -->
         @include('partials.header')
@@ -325,7 +325,7 @@
                 <div class="col-md-4">
                     <div class="service_blog">
                         <div class="service_img">
-                        <img class="img-responsive" src="{{asset('assets/images650800/i650800c.png')}}" alt="#" />
+                        <img class="img-responsive" src="{{asset('assets/images650800/i650800e.jpg')}}" alt="#" />
                         </div>
                         <div class="service_head">
                         <h5><a href="service_detail.html">Floor Planning</a></h5>
